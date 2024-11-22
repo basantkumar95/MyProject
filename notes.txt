@@ -32,6 +32,9 @@ What does Git do?
   -> Pull the latest version of the project to a local copy
   -> Push local updates to the main project
 
+Git is divided into three main zones
+working area (untracked file)(index.html file) -> staging area (tracking area )(when we add (index.html file) it is a copy)->commit(checkpoints)
+ (use "git rm --cached <file>..." to unstage)
 
 1 GIT STATUS -> Shows the current status of your working directory and staging area.
 fatal: not a git repository - means this folder is not a git repository we 
@@ -47,3 +50,6 @@ message.Saves changes in the staging area with a descriptive message.
 it is basically a checkpoints that can revert
 git commit -m "Your message here"
 What it does: Creates a snapshot of your current changes
+
+5 GIT ADD command->Adds files to the staging area (preparing them for commit).
+Adds all changes in the current directory to the staging area.
