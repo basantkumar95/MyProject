@@ -53,3 +53,6 @@ What it does: Creates a snapshot of your current changes
 
 5 GIT ADD command->Adds files to the staging area (preparing them for commit).
 Adds all changes in the current directory to the staging area.
+
+git remote add origin https://github.com/basantkumar95/MyProject.git
+git push -u origin master
