@@ -1,0 +1,49 @@
+What is Git?
+Git is a popular version control system. 
+It was created by Linus Torvalds in 2005, 
+and has been maintained by Junio Hamano 
+since then.
+Git is a free, open-source version control system 
+(VCS) that tracks changes to projects
+
+it is useful for coordinating work among programmers who
+are colloborating developing source code during software development
+
+git is developed in python , c ,c++ , perl ,shell script and tcl
+
+
+It is used for:
+
+   ->Tracking code changes
+   ->Tracking who made changes
+   ->Coding collaboration
+
+Why Git?
+Over 70% of developers use Git!
+   ->Developers can work together from anywhere in the world.
+   ->Developers can see the full history of the project.
+   ->Developers can revert to earlier versions of a project.
+
+What does Git do?
+  -> Manage projects with Repositories
+  -> Clone a project to work on a local copy
+  -> Control and track changes with Staging and Committing
+  -> Branch and Merge to allow for work on different parts and versions of a project
+  -> Pull the latest version of the project to a local copy
+  -> Push local updates to the main project
+
+
+1 GIT STATUS -> Shows the current status of your working directory and staging area.
+fatal: not a git repository - means this folder is not a git repository we 
+have to make it a git repository
+
+2 GIT INIT ->This command initializes a new Git repository in your project.
+What it does: Creates a hidden .git folder in your project, where Git will track your files.
+this .git folder Manage and trach changes all your projects and this is hidden 
+3-> ls -Force -- this command is used to show all the hidden as well real files in a folder
+
+4 GIT COMMIT command ->Saves changes in the staging area with a descriptive 
+message.Saves changes in the staging area with a descriptive message.
+it is basically a checkpoints that can revert
+git commit -m "Your message here"
+What it does: Creates a snapshot of your current changes
